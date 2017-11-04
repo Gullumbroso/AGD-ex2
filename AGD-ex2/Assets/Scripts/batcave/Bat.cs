@@ -73,7 +73,8 @@ public class Bat : MonoBehaviour {
 
     protected void OnCollisionEnter2D(Collision2D collision) {
         if (isInvulnerable) return;
-			isAlive = false;
+		isAlive = false;
+		flyUp = false;
         // EXERCISE: Stop flying and die.
     }
 
